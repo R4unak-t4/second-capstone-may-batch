@@ -1,4 +1,4 @@
-# Dynamic ML Classification Service (Bloomberg Terminal Edition)
+# Dynamic ML Classification Service 
 
 This workspace contains a plug-and-play classification platform. The FastAPI backend and React frontend are completely adaptive: they read the active model pipeline (`model.joblib`) and its schema descriptor (`metadata.json`) on startup. The UI dynamically builds forms, sliders, dropdowns, evaluation charts, and image overlays based on whatever dataset and model you train.
 
