@@ -1,0 +1,25 @@
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# System / IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Temp backend artifacts
+backend/artifacts/batch_predictions_output.csv
